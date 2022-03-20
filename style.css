@@ -1,0 +1,23 @@
+.container1 {
+    background: rgb(147, 138, 138);
+    padding: 16px;
+    border: 4px solid rgb(81, 81, 92);
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    background: peachpuff;
+    border: 4px solid salmon;
+    height: 24px;
+    padding: 4px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    flex-direction: row;
+}
