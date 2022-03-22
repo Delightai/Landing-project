@@ -1,9 +1,21 @@
-.container1 {
+.container1,
+.container2 {
     background: rgb(147, 138, 138);
     padding: 16px;
     border: 4px solid rgb(81, 81, 92);
     display: flex;
     justify-content: space-between;
+}
+
+.container3 {
+    margin: auto;
+    display: block;
+    font-display: auto;
+}
+
+.container5 {
+    display: flex;
+    justify: right;
 }
 
 .item1,
@@ -17,7 +29,37 @@
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    flex-direction: row;
+    height: 170px;
+    width: 300px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.container6 {
+    text-align: center;
+    font-size: large;
+    line-height: 100px;
+}
+
+.box,
+.box1,
+.box2,
+.box3 {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: 2px solid blue;
+}
+
+.container7 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    background: blue;
+    color: white;
+    ali: center;
 }
