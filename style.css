@@ -8,9 +8,11 @@
 }
 
 .container3 {
-    margin: auto;
+    margin: 20px;
     display: block;
     font-display: auto;
+    text-align: justify;
+    text-indent: 122px;
 }
 
 .container5 {
@@ -32,7 +34,7 @@ img {
     height: 170px;
     width: 300px;
     display: inline-block;
-    justify-content: center;
+    object-position: center;
 }
 
 .container6 {
@@ -45,21 +47,36 @@ img {
 .box1,
 .box2,
 .box3 {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     display: flex;
     border: 2px solid blue;
 }
 
 .container7 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-content: center;
     gap: 50px;
+    align-items: center;
 }
 
 button {
     background: blue;
     color: white;
-    ali: center;
+    align-items: center;
+}
+
+.textbox,
+.textbox2,
+.textbox3 {
+    flex-direction: column;
+}
+
+#quote {
+    border: 4px;
+    margin: auto;
+    background: whitesmoke;
+    color: black;
+    flex-direction: column;
 }
