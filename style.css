@@ -17,7 +17,6 @@
 
 .container5 {
     display: flex;
-    justify: right;
 }
 
 .item1,
@@ -73,10 +72,22 @@ button {
     flex-direction: column;
 }
 
-#quote {
+.quote {
     border: 4px;
-    margin: auto;
     background: whitesmoke;
     color: black;
     flex-direction: column;
+    line-height: 0.8;
+    padding: 20px;
+    margin: 4px;
+    background-color: dimgrey;
+}
+
+.group {
+    display: block;
+    line-height: 0.8;
+    padding: 16PX;
+    margin: 4px;
+    background-color: blue;
+    color: aliceblue;
 }
