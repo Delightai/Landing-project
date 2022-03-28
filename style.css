@@ -84,7 +84,7 @@ button {
 }
 
 .group {
-    display: block;
+    display: flex;
     line-height: 0.8;
     padding: 16PX;
     margin: 4px;
@@ -93,5 +93,5 @@ button {
 }
 
 .stage1 {
-    background-color: rgb(27, 25, 25);
+    background-color: rgb(166, 137, 137);
 }
